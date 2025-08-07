@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.env/
+.venv/
+
+# Git
+.git/
+.gitignore
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# System files
+*.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Environment variables (optional)
+.env
