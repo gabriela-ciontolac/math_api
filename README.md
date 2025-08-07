@@ -53,7 +53,7 @@ math-microservice/
 ## Quick Start
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/gabriela-ciontolac/math_api.git
 cd Python_MathApp
 cp .env.example .env   # Then edit .env and set your real secrets/config values
 docker-compose up --build
