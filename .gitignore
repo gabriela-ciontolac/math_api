@@ -1,4 +1,5 @@
 .env
+./venv
 debug.log
 __pycache__/
 *.pyc
