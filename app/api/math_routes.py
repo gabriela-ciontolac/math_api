@@ -3,9 +3,10 @@ from sqlalchemy.orm import Session
 from app.database.session import SessionLocal
 from app.models.request_log import RequestLog
 from app.schemas.math import PowRequest, PowResponse, FibonacciRequest, FibonacciResponse, FactorialRequest, FactorialResponse
-from app.services.math_service import compute_power, compute_fibonacci, compute_factorial
+from app.services.power_service import compute_power, compute_power_with_cache
+from app.services.fibonacci_service import compute_fibonacci, compute_fibonacci_with_cache
+from app.services.factorial_service import compute_factorial, compute_factorial_with_cache
 from app.metrics.metrics import operation_counter, operation_duration
-from app.services.math_service import compute_factorial_with_cache, compute_fibonacci_with_cache, compute_power_with_cache
 from app.auth.auth import get_current_user
 from app.logging.kafka_logger import log_event
 from datetime import datetime
