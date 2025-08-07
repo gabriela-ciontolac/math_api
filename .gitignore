@@ -1,7 +1,6 @@
 .env
 debug.log
-.venv/
+venv/
 __pycache__/
 *.pyc
 *.log
-.vscode
