@@ -13,7 +13,7 @@ A **production-ready microservice** for advanced mathematical computations (powe
 - **Monitoring**: Prometheus metrics & Grafana dashboards
 - **Logging**: Async event logging to Kafka (with Kafdrop UI)
 - **Containerized**: Easily deployable with Docker Compose
-- **Extensible**: Clean MVC structure, ready for scaling and more endpoints
+- **Extensible**: Clean MVCS structure, ready for scaling and more endpoints
 
 ---
 
